@@ -11,7 +11,7 @@ class CalendarsController < ApplicationController
     Plan.create(plan_params)
     redirect_to action: :index
   end
-#Issue2分かりません
+#Issue2分かりません...
   private
 
   def plan_params
