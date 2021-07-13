@@ -6,8 +6,6 @@ class CalendarsController < ApplicationController
     @plan = Plan.new
   end
 
-  -</div>
-<div>
   # 予定の保存
   def create
     Plan.create(plan_params)
