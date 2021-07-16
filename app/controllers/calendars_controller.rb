@@ -17,7 +17,6 @@ class CalendarsController < ApplicationController
   def plan_params
     params.require(:calendars).permit(:date, :plan)
   end
-
   def get_week
     wdays = ['(日)','(月)','(火)','(水)','(木)','(金)','(土)']
 
